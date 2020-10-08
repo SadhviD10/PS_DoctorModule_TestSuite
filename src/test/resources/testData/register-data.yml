@@ -1,0 +1,13 @@
+# This contains the login data
+---
+example:
+    normalUser:
+        storeName: Nimit Jain
+        storeAddress: Japan
+        zipCode: "166-0000"
+        addressLine1: 345 Park Ave
+        lastName: Jain
+        firstName: Nimit
+        countryCode: "India (+91)"
+        officeNumber: "999999999"
+        emailAddress: "nimit@malinator.com"

@@ -1,0 +1,23 @@
+baseUrl: https://progressivecontent.atlassian.net
+
+api:
+  jira: 
+    baseUrl: jira
+    endPoint: rest/api/2/issue
+    request:
+      request:
+      method: post
+      basicAuth: 
+        username: nimit.jain@progressive-tech.co.uk
+        password: Pass123@
+      headers:
+        content-type: application/json
+      body: jira.json
+      bodyParams: 
+        key: ""
+        summary: ""
+        description: ""
+    successStatusCode: 200
+    response:
+      status:
+        jpath: $.name

@@ -1,0 +1,13 @@
+# Test Configuration Registry
+chrome:
+    mode: local
+    os: windows
+    browser: chrome
+   #server : https://doctors.qa.patientstudio.com/
+    server : http://seed-doctor-office.patients.qa.patientstudio.com/
+    
+sauceWeb:
+   mode: sauceWeb
+   os: windows
+   browser: chrome
+   server : http://seed-doctor-office.patients.qa.patientstudio.com/

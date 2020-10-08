@@ -1,0 +1,90 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    Forgot_Password1:
+        findBy: xpath
+        locator: //a[contains(text(),'Forgot Password?')]
+    EmailAddress_Field:
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    Password_Field1:
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    Login_Btn:
+        findBy: xpath
+        locator: //button[text()='Login']
+    SendForm_Button1: 
+        findBy: xpath
+        locator: //a/label[text()='Send form']
+    SeedDctr_Admin:
+        findBy: xpath
+        locator: //div/h4[text()='Seed Office Admin']
+    Logout1:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]
+    ResetBtn:
+        findBy: xpath
+        locator: //button/label[text()='reset']
+    FirstName: 
+        findBy: xpath
+        locator: //input[@placeholder='John']
+    LastName:
+        findBy: xpath
+        locator: //input[@placeholder='Doe']
+    Email:
+        findBy: xpath
+        locator: //input[@placeholder='example@email.com']
+    MsgForInvalidEmail:
+        findBy: xpath
+        locator: //label[contains(text(),"Please enter a part following '@'. ")]
+    PhoneNumber: 
+        findBy: xpath
+        locator: //input[@placeholder='123 456 7891']
+    MsgForInvalidPhone:
+        findBy: xpath
+        locator: //label[contains(text(),'Please enter a valid phone number')]
+    PhoneErrorClick:
+        findBy: xpath
+        locator: //h4[contains(text(),'Appointment Info (Optional)')]
+    DateOfBirth:
+        findBy: xpath
+        locator: //input[@placeholder='mm/dd/yyyy']
+    ChooseForm:
+        findBy: xpath
+        locator: //div/div[text()='Select Form']
+    TestFormQA:
+        findBy: xpath
+        locator: //div[contains(text(),'Test Form - QA')]
+    AppointmentType:
+        findBy: xpath
+        locator: //div/div[text()='Select Type']
+    PhoneNumText:
+        findBy: xpath
+        locator: //label[contains(text(),'Phone Number')]
+    DateValidationMSg:
+        findBy: xpath
+        locator: //label[contains(text(),'Please enter a valid')]
+    DoctorText:
+        findBy: xpath
+        locator: //label[contains(text(),'Doctor')]
+    AppointTypeText:
+        findBy: xpath
+        locator: //div[contains(text(),'New Patient Child')]
+    SelectDoctor:
+        findBy: xpath
+        locator: //div/div[text()='Select Doctor']
+    Doctor:
+        findBy: xpath
+        locator: //div[contains(text(),'Seed Office Staff 2')]
+    Appointmentdate:
+        findBy: xpath
+        locator: //input[@name='appointmentDate']
+    Appointmenttime:
+        findBy: xpath
+        locator: //input[@name='appointmentTime']
+    SendFormButtonOnForm:
+        findBy: xpath
+        locator: //div/button/label[text()='Send Forms']

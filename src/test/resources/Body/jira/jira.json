@@ -1,0 +1,22 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "${key}"
+       },
+       "summary": "${summary}",
+       "description": "${description}",
+       "issuetype": {
+          "name": "Bug"
+       },
+      "priority": {
+      "self": "https://jira.atlassian.com/rest/api/2/priority/4",
+      "iconUrl": "https://jira.atlassian.com/images/icons/priorities/trivial.svg",
+      "name": "Low",
+      "id": "1"
+    }, 
+        "labels": [
+      "affects-server"
+    ]
+   }
+}

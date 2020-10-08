@@ -1,0 +1,9 @@
+#      /**
+#       * @desc
+#       * Sequence generator service endpoints for different environments
+#       */
+jira: 
+    dev: 'https://progressivecontent.atlassian.net'
+    qa: 'https://progressivecontent.atlassian.net'
+    stage: 'https://progressivecontent.atlassian.net'
+    prod: 'https://progressivecontent.atlassian.net'

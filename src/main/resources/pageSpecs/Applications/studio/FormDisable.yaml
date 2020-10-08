@@ -1,0 +1,151 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    ForgotPassword:
+        findBy: xpath
+        locator: //a[contains(text(),'Forgot Password?')]
+    Email_Field:
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    Dashboard:
+        findBy: cssselector
+        locator: a[class^=indexstyles__MenuListItem]
+    EmailLabel:
+        findBy: xpath
+        locator: //label[contains(text(),'Email')]
+    Password: 
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    LoginButton: 
+        findBy: xpath
+        locator: //button[text()='Login']
+    SendFormButton: 
+        findBy: xpath
+        locator: //a/label[text()='Send form']
+    FirstName: 
+        findBy: xpath
+        locator: //input[@placeholder='John']
+    LastName:
+        findBy: xpath
+        locator: //input[@placeholder='Doe']
+    Email:
+        findBy: xpath
+        locator: //input[@placeholder='example@email.com']
+    ChooseForm:
+        findBy: xpath
+        locator: //div/div[text()='Select Form']
+    FormDropDownOptions:
+        findBy: cssselector
+        locator: div.Dropdown-option
+    Field1Form:
+        findBy: xpath
+        locator: //div[contains(text(),'1 field form')]
+    SendFormButtonOnForm:
+        findBy: xpath
+        locator: //div/button/label[text()='Send Forms']
+    PatientName:
+        findBy: xpath
+        locator: //div[45]//div[1]//div[1]
+    PatientTab:
+        findBy: xpath
+        locator: //h4[text()='Patients']
+    SearchPatientField:
+        findBy: xpath
+        locator: //input[@placeholder='Search by Patient Name/Email/Phone number']
+    SearchResult_EmailPhone:
+        findBy: xpath
+        locator: //span[contains(text(),'Search patient first')]
+    PatientPageVerify:
+        findBy: xpath
+        locator: //span[contains(text(),'Patient.studiotest@gmail.com')]
+    ScrollToForms:
+        findBy: xpath
+        locator: //p[contains(text(),'Forms')]
+    SubmittedFormColour:
+        findBy: cssselector
+        locator: div[class^='styles__StatusField']>svg>path
+    ForgotPasswordPatient:
+        findBy: xpath
+        locator: //h5/a[text()='Forgot Password?']
+    EmailIDFieldPat: 
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    PasswordFieldPat: 
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    LoginPat:
+        findBy: xpath
+        locator: //button/label[text()='Login']
+    LoginTextPat:
+        findBy: xpath
+        locator: //h3[contains(text(),'test test')]
+    FormList:
+        findBy: xpath
+        locator: //button/a[contains(@class,'Button__ButtonLink')]
+    FormField:
+        findBy: xpath
+        locator: //div/textarea[contains(@class,'TextField')]
+    SubmitFormBtn:
+        findBy: xpath
+        locator: //button/label[text()='Submit Form']
+    Admin_UserName:
+        findBy: xpath
+        locator: //input[contains(@id,'input')][@type='email']
+    Admin_Password:
+        findBy: xpath
+        locator: //input[contains(@id,'input')][@type='password']
+    Admin_Submit: 
+        findBy: xpath
+        locator: //span[contains(text(),'Sign In')]
+    SearchFieldOnAdmin:
+        findBy: xpath
+        locator: //input[@placeholder='Search for a practice']
+    ClickFieldOnAdmin:
+        findBy: xpath
+        locator: //span[contains(@class,'v-badge')][contains(text(),'Seed Doctor Office')]
+    CreatePracticeBtn:
+        findBy: xpath
+        locator: //span[contains(text(),'Create New Practice')]
+    Form_Button:
+        findBy: xpath
+        locator: //div[contains(text(),'Forms')]
+    SearchFormField:
+        findBy: xpath
+        locator: //div[contains(@class,'v-text')]/input[contains(@id,'input')][@type='text']
+    EditButton:
+        findBy: cssselector
+        locator: button[class^='v-btn']>span.v-btn__content>i.v-icon
+    WebsiteLink_button:
+        findBy: cssselector
+        locator: button[class^='v-btn']>span.v-btn__content>i[class*='share-variant']
+    LinkCode:
+        findBy: xpath
+        locator: //code[contains(text(),'https://seed-doctor-office.patients.qa.patientstudio.com')]
+    EditPopup:
+        findBy: xpath
+        locator: //div[@class='v-card__title']
+    DisableToggle:
+        findBy: xpath
+        locator: //div[@class='v-input--selection-controls__ripple primary--text']
+    EnableToggle:
+        findBy: xpath
+        locator: //div[@class='v-input theme--light v-input--selection-controls v-input--switch']//div[@class='v-input--selection-controls__ripple']
+    SaveBtnOnDisablePopup:
+        findBy: xpath
+        locator: //span[contains(text(),'Save')]
+    DisabledForm:
+        findBy: cssselector
+        locator: i[class$='red--text']
+    EnabledForm:
+        findBy: cssselector
+        locator: i[class$='green--text']
+    SeedDctr_Admin:
+        findBy: xpath
+        locator: //div/h4[text()='Seed Office Admin']
+    Logout1:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]
+       

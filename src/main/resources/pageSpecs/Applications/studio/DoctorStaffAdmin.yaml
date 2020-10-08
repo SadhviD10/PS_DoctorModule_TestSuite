@@ -1,0 +1,39 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    ForgotPassword:
+        findBy: xpath
+        locator: //a[contains(text(),'Forgot Password?')]
+    Email_Field:
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    Password: 
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    LoginButton: 
+        findBy: xpath
+        locator: //button[text()='Login']
+    SearchPatient:
+        findBy: xpath
+        locator: //input[@id='search-patients']
+    SearchButton:
+        findBy: xpath
+        locator: //button/label[text()='Search Patients']
+    FormButton:
+        findBy: xpath
+        locator: //td/button[contains(text(),'Submitted')]
+    Table:
+        findBy: xpath
+        locator: //tbody/tr
+    SentFormPopUp:
+        findBy: xpath
+        locator: //div/div[text()='Sent Forms']
+    PageClick:
+        findBy: xpath
+        locator: //div[@class='ui page modals dimmer transition visible active']
+    ViewFormBtn:
+        findBy: xpath
+        locator: //button/label[text()='View Form']

@@ -1,0 +1,39 @@
+timeout: 10
+
+expectedTitle: contentcloud
+
+elements:
+   
+    ForgotPassword:
+        findBy: xpath
+        locator: //a[contains(text(),'Forgot Password?')]
+    Email_Field:
+        findBy: xpath
+        locator: //input[@placeholder='E-mail address']
+    Password: 
+        findBy: xpath
+        locator: //input[@placeholder='Password']
+    LoginButton: 
+        findBy: xpath
+        locator: //button[text()='Login']
+    Email_ErrorMsg: 
+        findBy: xpath
+        locator: //label[contains(text(),"Please include an '@' in the email address. 'rtret")]
+    EmailErrorMsg: 
+        findBy: xpath
+        locator: //div[contains(@class,'TextField__ErrorContainer')]
+    ErrorMsg: 
+        findBy: xpath
+        locator: //div[@class='ui negative message']
+    BackToLogin: 
+        findBy: xpath
+        locator: //button/label[text()='Back to Login']
+    SendFormButton: 
+        findBy: xpath
+        locator: //a/label[text()='Send form']
+    SeedDctrAdmin:
+        findBy: xpath
+        locator: //div/h4[text()='Seed Office Admin']
+    Logout:
+        findBy: xpath
+        locator: //h4[contains(text(),'Logout')]
